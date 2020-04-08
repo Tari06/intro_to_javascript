@@ -3,7 +3,7 @@ for (var x = 0; x < 5; x = x + 1) {
     console.log(x + "," + y);
   }
 }
-#print > Prints:
+//print > Prints:
 0, 0
 0, 1
 0, 2
@@ -20,30 +20,30 @@ for (var x = 0; x < 5; x = x + 1) {
 4, 1
 4, 2
 
-#while_loops to for loops
+//while_loops to for loops
 
 var x = 9;
 while (x >= 1) {
   console.log("hello " + x);
   x = x - 1;
 }
-#code for loops
+//code for loops
 for (var x=9; x>1; x=x-1;) {
        console.log("hello "+ x);
 }
 
-#Here is a for loop that's supposed to print the numbers 5 through 9. Fix the error!
+//Here is a for loop that's supposed to print the numbers 5 through 9. Fix the error!
 for (x < 10; x++) {
   console.log(x);
 }
-#code
+//code
 for (var x=5; x < 10; x++) {
       console.log(x);
 }
 
 
-#Write a for (note: not a function) loop that prints out the factorial of the number 12
-#code factorial
+//Write a for (note: not a function) loop that prints out the factorial of the number 12
+//code factorial
 var solution = 1;
 for(var x = 12; x > 0; x--){
     solution *=x;
